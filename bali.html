@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Bali</title>
+    <link rel="stylesheet" href="bali.css" />
+
+    <!-- POLICES : Inter, Lemon, Lemonada -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Kavoon&family=Lemon&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <div class="logo">Les Baroudeurs</div>
+      </div>
+
+      <nav>
+        <div class="nav-wrapper">
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Accueil</a></li>
+
+            <li class="dropdown">
+              <a href="continent.html">Continents</a>
+              <ul class="dropdown-menu">
+                <li><a href="bali.html">Asie - Bali</a></li>
+                <li><a href="mexique.html">Amérique du Sud - Mexique</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="les guides.html">Les Guides</a>
+              <ul class="dropdown-menu">
+                <li><a href="bali.html">Nicole - Bali</a></li>
+                <li><a href="mexique.html">Hassane - Mexique</a></li>
+              </ul>
+            </li>
+
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- SECTION HERO -->
+      <section id="accueil" class="hero-video">
+        <video autoplay muted loop playsinline class="background-video">
+          <source src="assets/hero/landscapeBali.mp4" type="video/mp4" />
+          Ton navigateur ne supporte pas la vidéo HTML5.
+        </video>
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+          <h1>Bali ~ INDONÉSIA</h1>
+          <p>15 jours sur l'île paradisiaque</p>
+        </div>
+      </section>
+
+      <!-- MAIN CONTENT -->
+      <div class="blog-container">
+        <h2>📌Découvrir Bali en 15 jours</h2>
+        <p>
+          Un voyage à Bali ça se prépare… ou pas ! Tout dépend de vos envies.
+          Mon chéri connaissant déjà Bali, Lombok et les îles Gili, nous avons
+          décidé de rester 2 semaines uniquement sur Bali et en profiter pour
+          faire le plein d'activités.
+        </p>
+
+        <p>
+          Nous n'avons donc réservé que nos premières nuits et nous avons
+          souhaité découvrir l'île au jour le jour, en décidant notre parcours
+          au fur et à mesure. L'avantage ? Être libre d'aller partout ! Le petit
+          inconvénient c'est de ne pas avoir trop le choix sur les hébergements.
+        </p>
+
+        <section class="photo-grid">
+          <img
+            loading="lazy"
+            src="assets/découvre-bali/cascade-de-bali-indonesie.jpg"
+            alt="cascade de bali Indonésie"
+          />
+          <img
+            loading="lazy"
+            src="assets/découvre-bali/les-enfants-ayant-du-plaisir-dans-une-chute.jpg"
+            alt="les-enfants-ayant-du-plaisir-dans-une-chute"
+          />
+          <img
+            loading="lazy"
+            src="assets/découvre-bali/pagode-de-bali-indonesie.jpg"
+            alt="Pagode de Bali"
+          />
+          <img
+            loading="lazy"
+            src="assets/découvre-bali/temple-d-angkor-wat.jpg"
+            alt="Temple d'Angkor"
+          />
+        </section>
+
+        <h2>Sommaire</h2>
+        <ul>
+          <li><a href="#pourquoi-bali">1. Pourquoi visiter Bali ?</a></li>
+          <li>
+            <a href="#itineraire"
+              >2. Mon itinéraire de 15 jours sur l'île de Bali</a
+            >
+          </li>
+          <li><a href="#hebergements">3. Hébergements à Bali</a></li>
+          <li>
+            <a href="#bukit-uluwatu">4. La Péninsule de Bukit et Uluwatu</a>
+          </li>
+          <li><a href="#ubud">5. Ubud & ses alentours</a></li>
+        </ul>
+
+        <h3 id="pourquoi-bali">1. Pourquoi visiter Bali ?</h3>
+        <p>
+          Bali, c'est bien plus qu'une simple destination touristique. C'est une
+          île où la nature, la culture et la spiritualité se rencontrent. On y
+          découvre des rizières verdoyantes à perte de vue, des plages idéales
+          pour le surf ou le repos, et des temples hindous chargés d'histoire.
+        </p>
+        <p>
+          L'ambiance est paisible, les habitants sont accueillants, et la
+          nourriture est aussi savoureuse que variée. Que tu cherches
+          l'aventure, le calme ou une vraie immersion culturelle, Bali a quelque
+          chose à offrir, sans artifice.
+        </p>
+
+        <h3 id="itineraire">2. Mon itinéraire de 15 jours sur l'île de Bali</h3>
+
+        <div class="jour">
+          <h4>Jour 1 : Arrivée à Denpasar - Transfert à Ubud</h4>
+          <ul>
+            <li>Repos après le vol</li>
+            <li>Installation à Ubud</li>
+          </ul>
+        </div>
+
+        <div class="jour">
+          <h4>Jour 2 à 4 : Ubud</h4>
+          <ul>
+            <li>Monkey Forest</li>
+            <li>Rizières de Tegalalang</li>
+          </ul>
+        </div>
+
+        <div class="jour">
+          <h4>Jour 5 : Mont Batur (optionnel)</h4>
+          <ul>
+            <li>Départ très tôt pour le lever du soleil</li>
+            <li>Vue impressionnante si météo favorable</li>
+          </ul>
+        </div>
+
+        <div class="jour">
+          <h4>Jour 6 à 8 : Sidemen ou Amed</h4>
+          <ul>
+            <li>Campagne, rizières (Sidemen) ou snorkeling (Amed)</li>
+            <li>Temple Lempuyang (Porte du Paradis)</li>
+          </ul>
+        </div>
+
+        <div class="jour">
+          <h4>Jour 9 à 11 : Îles Nusa</h4>
+          <ul>
+            <li>Kelingking Beach, Broken Beach, Crystal Bay</li>
+            <li>Snorkeling avec raies mantas</li>
+          </ul>
+        </div>
+
+        <div class="jour">
+          <h4>Jour 12 à 14 : Sud de Bali (Seminyak, Canggu ou Uluwatu)</h4>
+          <ul>
+            <li>Plages, restaurants, boutiques selon l'endroit</li>
+            <li>Danse Kecak au temple d'Uluwatu</li>
+          </ul>
+        </div>
+
+        <div class="jour">
+          <h4>Jour 15 : Retour</h4>
+          <ul>
+            <li>Derniers achats ou massage</li>
+            <li>Retour à l'aéroport</li>
+          </ul>
+        </div>
+
+        <section class="photo-grid">
+          <img
+            loading="lazy"
+            src="assets/itinéraire/belle-plage-de-diamants-sur-l-ile-de-penida-bali-indonesie.jpg"
+            alt="Belle plage de diamants sur l'île de penida à Bali"
+          />
+          <img
+            loading="lazy"
+            src="assets/itinéraire/capture-verticale-de-rizieres-en-terrasses-a-bali-indonesie.jpg"
+            alt="Rizières en terrasses à Bali Indonésie"
+          />
+          <img
+            loading="lazy"
+            src="assets/itinéraire/coucher-de-soleil-sur-un-paysage-montagneux.jpg"
+            alt="Coucher de soleil au Mont Batur"
+          />
+          <img
+            loading="lazy"
+            src="assets/itinéraire/singe-macaque-mignon-mangeant-un-fruit.jpg"
+            alt="Singe mangeant un fruit dans la Monkey Forest"
+          />
+        </section>
+
+        <h3 id="hebergements">3. Hébergements à Bali</h3>
+
+        <div class="hebergement">
+          <h4>Ubud (centre culturel et spirituel)</h4>
+          <ul>
+            <li>
+              <strong>Type :</strong> Guesthouses, hôtels avec vue rizière,
+              retraites yoga
+            </li>
+            <li><strong>Budget :</strong> 15 à 100€ / nuit</li>
+            <li>
+              <strong>Conseil :</strong> Choisir un logement au calme, à max 15
+              min à pied du centre
+            </li>
+          </ul>
+        </div>
+
+        <div class="hebergement">
+          <h4>Sidemen ou Amed (authenticité et nature)</h4>
+          <ul>
+            <li><strong>Type :</strong> Petits hôtels familiaux, bungalows</li>
+            <li><strong>Budget :</strong> 10 à 50€ / nuit</li>
+            <li>
+              <strong>Conseil :</strong> Privilégier un hébergement avec vue sur
+              les montagnes ou la mer
+            </li>
+          </ul>
+        </div>
+
+        <div class="hebergement">
+          <h4>Nusa Penida (aventure et paysages spectaculaires)</h4>
+          <ul>
+            <li>
+              <strong>Type :</strong> Écolodges, hôtels simples, bungalows
+            </li>
+            <li><strong>Budget :</strong> 15 à 70€ / nuit</li>
+            <li>
+              <strong>Conseil :</strong> Choisir l'est de l'île pour être plus
+              au calme et proche des spots
+            </li>
+          </ul>
+        </div>
+
+        <h3 id="bukit-uluwatu">4. La Péninsule de Bukit et Uluwatu</h3>
+
+        <div class="zone">
+          <h4>Pourquoi visiter cette région ?</h4>
+          <ul>
+            <li>Falaises impressionnantes surplombant l'océan</li>
+            <li>
+              Plages idéales pour le surf : Padang Padang, Bingin, Uluwatu
+            </li>
+            <li>Atmosphère détendue, un peu bohème</li>
+            <li>Couchers de soleil spectaculaires</li>
+          </ul>
+        </div>
+
+        <h3 id="ubud">5. Ubud & ses alentours</h3>
+
+        <div class="zone">
+          <h4>Activités à faire</h4>
+          <ul>
+            <li>Visiter la Monkey Forest</li>
+            <li>Explorer les rizières en terrasse de Tegalalang</li>
+            <li>Découvrir les temples : Goa Gajah, Tirta Empul, Gunung Kawi</li>
+          </ul>
+        </div>
+
+        <div class="zone">
+          <h4>Ambiance et conseils</h4>
+          <ul>
+            <li>Ubud est le cœur culturel et spirituel de Bali</li>
+            <li>Se promener dans le centre-ville, boutiques d'artisanat</li>
+            <li>Prendre un scooter pour explorer les alentours</li>
+          </ul>
+        </div>
+
+        <h2>Le mot de la fin</h2>
+        <p>
+          Après ces 15 jours passés à arpenter les sentiers, plages et villages
+          de Bali, il est temps de faire une pause et de revenir sur cette
+          expérience unique. Bali ne se contente pas d'être une simple
+          destination touristique, c'est un véritable voyage intérieur où chaque
+          instant invite à la découverte, à la rencontre et à la sérénité.
+        </p>
+
+        <p>
+          Que tu cherches l'aventure, la détente ou une immersion culturelle
+          profonde, cette île saura toujours te surprendre. Alors n'hésite pas à
+          partir à ton rythme, à écouter tes envies et à te laisser porter par
+          la magie de Bali.
+        </p>
+
+        <p>Bon voyage et surtout, profite pleinement de chaque moment !</p>
+
+        <section class="photo-grid">
+          <img
+            loading="lazy"
+            loading="lazy"
+            src="assets/zone/ancienne-sculpture-en-pierre-dans-un-temple.jpg"
+            alt="ancienne sculpture en pierre dans un temple à Bali"
+          />
+          <img
+            loading="lazy"
+            src="assets/zone/Bali beach sunset.jpg"
+            alt="joli coucher de soleil à Bali"
+          />
+          <img
+            loading="lazy"
+            src="assets/zone/balinaire-marchant-dans-un-temple.jpg"
+            alt="Femme balinaise marchant dans un temple"
+          />
+          <img
+            loading="lazy"
+            src="assets/zone/celebration-nyepi-day-bali.jpg"
+            alt="Celebration Nyepi day"
+          />
+          <img
+            loading="lazy"
+            src="assets/zone/plat-typique-balinais.jpg"
+            alt="Plat typique Balinais"
+          />
+          <img
+            loading="lazy"
+            src="assets/zone/singe-famille-foret.jpg"
+            alt="Famille de singe dans une fôret à bali"
+          />
+        </section>
+      </div>
+      <!-- Fin blog-container -->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="icons">
+        <img src="assets/Index/icons8-instagram-50.svg" alt="instagram" />
+        <img src="assets/Index/icons8-facebook-50.svg" alt="Facebook" />
+        <img src="assets/Index/icons8-tic-tac-50.svg" alt="tiktok" />
+      </div>
+      <p>copyright - All right reserved</p>
+      <a href="contact.html">Contact</a>
+    </footer>
+  </body>
+</html>

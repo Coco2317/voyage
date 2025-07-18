@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Les Baroudeurs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Kavoon&family=Lemon&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo-container">
+        <div class="logo">Les Baroudeurs</div>
+      </div>
+
+      <nav>
+        <div class="nav-wrapper">
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Accueil</a></li>
+
+            <li class="dropdown">
+              <a href="continent.html">Continents</a>
+              <ul class="dropdown-menu">
+                <li><a href="bali.html">Asie - Bali</a></li>
+                <li><a href="mexique.html">Amérique du Sud - Mexique</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="les guides.html">Les Guides</a>
+              <ul class="dropdown-menu">
+                <li><a href="bali.html">Nicole - Bali</a></li>
+                <li><a href="mexique.html">Hassane - Mexique</a></li>
+              </ul>
+            </li>
+
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!--SECTION HERO-->
+    <section id="accueil" class="hero-video">
+      <video autoplay muted loop playsinline class="background-video">
+        <source src="assets/hero/bg-hero-index.mp4" type="video/mp4" />
+        Ton navigateur ne supporte pas la vidéo HTML5.
+      </video>
+
+      <div class="overlay"></div>
+
+      <div class="hero-content">
+        <h1>Baroudeurs</h1>
+        <p>
+          “Chaque pas raconte une histoire. Bienvenue là où commence la vôtre”.
+        </p>
+      </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-container">
+      <div class="container">
+        <h2>Bienvenue chez Les Baroudeurs</h2>
+        <p>
+          À travers ce carnet de voyage, nous vous invitons à explorer avec nous
+          deux destinations qui nous ont profondément marqués : Bali, l'île des
+          dieux, où spiritualité et nature luxuriante se mêlent aux traditions
+          ancestrales, et le Mexique, terre de couleurs éclatantes, de saveurs
+          intenses et d'une culture vibrante.
+        </p>
+        <p>
+          Ici, pas de clichés ni de filtres, juste nos expériences vécues, les
+          rencontres sincères avec les locaux, les paysages à couper le souffle,
+          mais aussi les imprévus et les moments plus difficiles qui font tout
+          le charme du voyage. Que vous soyez curieux, voyageurs en quête
+          d'inspiration ou simplement amoureux du monde, suivez-nous pour une
+          immersion sincère, pleine d'émotions et d'émerveillements.
+        </p>
+
+        <div class="card-image">
+          <div class="image">
+            <img src="assets/Index/South america.jpg" alt="South america" />
+          </div>
+
+          <div class="image">
+            <img src="assets/Index/bali.jpg" alt=" Asie" />
+          </div>
+        </div>
+
+        <div class="table-container">
+          <h3>Nos destinations et leurs guides</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Destinations</th>
+                <th>Guides</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Destination">Bali</td>
+                <td data-label="Guide">Nicole</td>
+                <td data-label="Description courte">
+                  Spiritualité, nature luxuriante, traditions ancestrales.
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Destination">Mexique</td>
+                <td data-label="Guide">Hassane</td>
+                <td data-label="Description courte">
+                  Culture vibrante, saveurs, ruines mayas.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Voyages -->
+      <div class="title">
+        <h3>Découvrez nos voyages</h3>
+      </div>
+
+      <div class="voyage">
+        <img src="assets/Index/bb.jpg" alt="Bali" />
+        <div class="description">
+          <h2>Cap sur Bali 🌺</h2>
+          <p>
+            Bali, c'est bien plus que des plages de rêve et des rizières en
+            terrasses. C'est une île pleine de contrastes, de spiritualité et de
+            surprises. On a voulu voir ce qu'il y avait derrière les clichés —
+            et on n'a pas été déçus.
+          </p>
+          <p>
+            Entre temples sacrés, volcans majestueux, cuisine épicée et moments
+            simples avec les locaux, on vous raconte notre Bali, celui qu'on a
+            découvert au fil des jours… parfois chaotiques, souvent magiques,
+            toujours sincères.
+          </p>
+          <a href="bali.html" class="button">Découvre l'île</a>
+        </div>
+      </div>
+
+      <div class="voyage">
+        <div class="description">
+          <h2>Direction le Mexique 🇲🇽</h2>
+          <p>
+            Le Mexique, c'est une explosion de couleurs, de saveurs et
+            d'histoires. On y est venus pour les plages et les tacos, on y est
+            restés pour sa culture vibrante, ses traditions vivantes et
+            l'accueil incroyable des gens.
+          </p>
+          <p>
+            Des ruines mayas perdues dans la jungle aux ruelles animées des
+            pueblos, on vous partage notre parcours, nos coups de cœur, et aussi
+            nos imprévus
+          </p>
+          <p>
+            Parce qu'en voyage, rien ne se passe jamais tout à fait comme prévu…
+            et c'est ce qui le rend inoubliable.
+          </p>
+          <a href="mexique.html" class="button">Découvre cette destination</a>
+        </div>
+        <img src="assets/Index/mexico.jpg" alt="Mexique" />
+      </div>
+    </div>
+    <!--fin du main content-->
+
+    <!-- Footer -->
+    <footer>
+      <div class="icons">
+        <img src="assets/Index/icons8-instagram-50.svg" alt="instagram" />
+        <img src="assets/Index/icons8-facebook-50.svg" alt="Facebook" />
+        <img src="assets/Index/icons8-tic-tac-50.svg" alt="tiktok" />
+      </div>
+      <p>copyright - All right reserved</p>
+      <a href="contact.html">Contact</a>
+    </footer>
+  </body>
+</html>
