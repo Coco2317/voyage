@@ -20,15 +20,6 @@ body {
 }
 
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 16px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
 
 /* Header */
 header {
@@ -125,24 +116,7 @@ nav a {
   z-index: -1;
 }
 
-.hero-content {
-  position: relative;
-  z-index: 1;
-  color: white;
-  text-align: center;
-  padding: 32px 16px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  animation: fadeIn 2s ease-in;
-}
 
-.hero-content h1 {
-  font-size: 32px;
-  font-family: 'Knewave', cursive;
-  margin-bottom: 8px;
-}
 
 @keyframes fadeIn {
   from {
@@ -283,10 +257,6 @@ footer {
   margin-top: 48px;
 }
 
-footer .container {
-  flex-direction: column;
-  align-items: center;
-}
 
 footer img {
   width: 40px;
